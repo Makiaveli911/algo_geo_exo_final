@@ -20,22 +20,32 @@ public:
     // Renvoie un demi-c�t� issu du sommet
     DemiCote* getDemiCote() const {return demiCote;}
 
+
+	bool marque() const { return demiCoteMarque; }
+
     // Renvoie l'index du sommet
-    int getIndex() const {return index;}
+    int getIndex() const {return demiCoteIndex;}
 
 private:
 
 	// Construit un sommet dont les coordonn�es sont celles de p,
 	// � l'extr�mit� du demi-c�t� demiCote et dont l'index est index
-    Sommet(const Point &p, DemiCote* demiCote, int index)
-           : point(p), demiCote{demiCote}, index{index} {};
+	Sommet(const Point& p, DemiCote* demiCote, int index)
+		: point(p),
+		demiCote{ demiCote },
+		demiCoteIndex{ index },
+		demiCoteMarque{ false },
+		demiCoteObjetIndex{ 0 } {};
+		;
 
 	// Destructeur de sommet priv�
 	~Sommet() = default;
 
 	Point point;
 	DemiCote* demiCote;   // l'un des demi-c�t�s issus du sommet
-	int index;            // la position du sommet dans le tableau d_tabSommets
+	int demiCoteIndex;            // la position du sommet dans le tableau d_tabSommets
+	int demiCoteObjetIndex;       // la position du demi-c�t� dans le tableau d_tabDemiCote
+	int demiCoteMarque;
 };
 
 class DemiCote
@@ -73,7 +83,11 @@ private:
 	// Construit un demi-c�t� dont suivant est le demi-c�t� suivant,
 	// precedent est le demi-c�t� pr�c�dent, oppose est le demi-c�t� oppos�,
 	// sommet est le sommet dont il est issu et index est l'index
-	DemiCote(DemiCote* suivant, DemiCote* precedent, DemiCote* oppose, Sommet* sommet, int index)
+	DemiCote(DemiCote* suivant, 
+		DemiCote* precedent, 
+		DemiCote* oppose, 
+		Sommet* sommet, 
+		int index)
 			 : demiCoteSuivant{suivant}, demiCotePrecedent{precedent}, demiCoteOppose{oppose},
 			 demiCoteSommet{sommet}, demiCoteIndex{index}, demiCoteMarque{0} {};
 
@@ -165,8 +179,8 @@ private:
     
 
 
-    vector<Sommet*> tableauSommets;       // tableau des sommets
-	vector<DemiCote*> tableauDemiCote;   // tableau des demi-c�t�s
+	std::vector<Sommet*> tableauSommets;       // tableau des sommets
+	std::vector<DemiCote*> tableauDemiCote;   // tableau des demi-c�t�s
 	DemiCote* demiCoteParticulier;    // demi-c�t� particulier (nul par d�faut)
 };
 

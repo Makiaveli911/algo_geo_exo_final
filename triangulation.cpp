@@ -16,6 +16,9 @@
 void triangulation(std::vector<Point>& T, Carte& C) {
     // Étape 1 : Trier les points par abscisses croissantes
     std::sort(T.begin(), T.end(), [](const Point& a, const Point& b) {
+        /*if (a.x() == b.x() && a.y() == b.y()) {
+            T+1;
+        }*/
         return (a.x() < b.x() || (a.x() == b.x() && a.y() < b.y()));
     });
 
@@ -30,21 +33,11 @@ void triangulation(std::vector<Point>& T, Carte& C) {
 
     // Étape 3 : Ajouter les points restants à l'enveloppe convexe
     for (size_t i = 2; i < T.size(); ++i) {
+        
         Point pointAAjouter = T[i];
-
         DemiCote* demiCoteReference2 = C.ajouteCote(pointAAjouter,demiCoteReference);
 
         // Sens trigonométrique : trouver les côtés à droite du point
-
-        auto p1 = demiCoteReference->suivant();
-        auto p2 = demiCoteReference->suivant()->suivant();
-
-        while (pointAAjouter.aGauche(demiCoteReference->point(), demiCoteReference->suivant()->suivant()->oppose()->point()) == -1) {
-            demiCoteReference = demiCoteReference->suivant()->suivant()->oppose();
-            C.ajouteCote(demiCoteReference, demiCoteReference2);
-        }
-
-        demiCoteReference = demiCoteReference2->oppose()->precedent();
 
         while(pointAAjouter.aGauche(demiCoteReference->oppose()->point(), demiCoteReference->point()) == -1) {
             demiCoteReference = demiCoteReference->oppose()->precedent();
@@ -91,7 +84,8 @@ void triangulation(std::vector<Point>& T, Carte& C) {
             traitement->oppose()->point()) < 0) {
             for (DemiCote* dc : { traitement->oppose()->precedent(),
                                 traitement->oppose()->suivant(),
-                                traitement->precedent(), traitement->suivant() }) {
+
+                traitement->precedent(), traitement->suivant() }) {
                 // Si le demi-côté n'est pas marqué, on le marque et on l'ajoute à la pile
                 if (dc->marque() == 0) {
                     dc->changeMarque(1);

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/makia/Documents/exercice a faire/algo_geo_exo4_triangulation_de_delaunay
+# Install script for directory: C:/Users/makia/Documents/exercice a faire/algo_geo_exo_final
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/makia/Documents/exercice a faire/algo_geo_exo4_triangulation_de_delaunay/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/makia/Documents/exercice a faire/algo_geo_exo_final/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/makia/Documents/exercice a faire/algo_geo_exo4_triangulation_de_delaunay/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/makia/Documents/exercice a faire/algo_geo_exo_final/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
