@@ -10,6 +10,7 @@
 
     // Déclare la fonction de triangulation
     void triangulation(std::vector<Point>& T, Carte& C);
+    void delaunay(std::vector<Point>& T, Carte& C);
 
 
 

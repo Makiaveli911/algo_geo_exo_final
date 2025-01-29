@@ -11,16 +11,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:triangulation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\.vs\\launch.vs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\launch.vs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\triangulation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:triangulation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\CMakeSettings.json||{10608CD5-279C-4A28-BD5F-BA2CFCE06219}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeSettings.json||{10608CD5-279C-4A28-BD5F-BA2CFCE06219}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carte.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:affichage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,20 +35,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carte.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carte.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\CMakeSettings.json||{10608CD5-279C-4A28-BD5F-BA2CFCE06219}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeSettings.json||{10608CD5-279C-4A28-BD5F-BA2CFCE06219}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:affichage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:affichage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,7 +68,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-26T12:23:26.016Z",
               "IsPinned": true,
@@ -80,7 +84,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "triangulation.h",
+              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\triangulation.h",
+              "RelativeDocumentMoniker": "triangulation.h",
+              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\triangulation.h",
+              "RelativeToolTip": "triangulation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-29T00:21:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "triangulation.cpp",
+              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\triangulation.cpp",
+              "RelativeDocumentMoniker": "triangulation.cpp",
+              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\triangulation.cpp",
+              "RelativeToolTip": "triangulation.cpp",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-28T22:58:37.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-26T20:04:59.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "carte.h",
+              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.h",
+              "RelativeDocumentMoniker": "carte.h",
+              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.h",
+              "RelativeToolTip": "carte.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAlwEkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-26T13:15:27.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "carte.cpp",
+              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.cpp",
+              "RelativeDocumentMoniker": "carte.cpp",
+              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.cpp",
+              "RelativeToolTip": "carte.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-26T13:07:41.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "point.h",
+              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.h",
+              "RelativeDocumentMoniker": "point.h",
+              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.h",
+              "RelativeToolTip": "point.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-26T19:22:18.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "point.cpp",
+              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.cpp",
+              "RelativeDocumentMoniker": "point.cpp",
+              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.cpp",
+              "RelativeToolTip": "point.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-26T12:36:22.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CMakeSettings.json",
               "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\CMakeSettings.json",
               "RelativeDocumentMoniker": "CMakeSettings.json",
@@ -92,52 +187,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launch.vs.json",
-              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\.vs\\launch.vs.json",
-              "RelativeDocumentMoniker": ".vs\\launch.vs.json",
-              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\.vs\\launch.vs.json",
-              "RelativeToolTip": ".vs\\launch.vs.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-26T13:33:13.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "carte.h",
-              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.h",
-              "RelativeDocumentMoniker": "carte.h",
-              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.h",
-              "RelativeToolTip": "carte.h",
-              "ViewState": "AgIAAIQAAAAAAAAAAIBJwJUAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T13:15:27.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "carte.cpp",
-              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.cpp",
-              "RelativeDocumentMoniker": "carte.cpp",
-              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\carte.cpp",
-              "RelativeToolTip": "carte.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAUwHgAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-26T13:07:41.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "affichage.cpp",
               "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.cpp",
               "RelativeDocumentMoniker": "affichage.cpp",
               "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.cpp",
               "RelativeToolTip": "affichage.cpp",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-26T12:36:28.007Z",
               "EditorCaption": ""
@@ -145,19 +201,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "affichage.h",
-              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.h",
-              "RelativeDocumentMoniker": "affichage.h",
-              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.h",
-              "RelativeToolTip": "affichage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T12:36:27.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
@@ -170,46 +213,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "point.h",
-              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.h",
-              "RelativeDocumentMoniker": "point.h",
-              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.h",
-              "RelativeToolTip": "point.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "affichage.h",
+              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.h",
+              "RelativeDocumentMoniker": "affichage.h",
+              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\affichage.h",
+              "RelativeToolTip": "affichage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T19:22:18.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "point.cpp",
-              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.cpp",
-              "RelativeDocumentMoniker": "point.cpp",
-              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\point.cpp",
-              "RelativeToolTip": "point.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-26T12:36:22.183Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "triangulation.cpp",
-              "DocumentMoniker": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\triangulation.cpp",
-              "RelativeDocumentMoniker": "triangulation.cpp",
-              "ToolTip": "C:\\Users\\makia\\Documents\\exercice a faire\\algo_geo_exo4_triangulation_de_delaunay\\triangulation.cpp",
-              "RelativeToolTip": "triangulation.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-26T12:36:18.2Z",
+              "WhenOpened": "2025-01-26T12:36:27.145Z",
               "EditorCaption": ""
             }
           ]

@@ -102,31 +102,31 @@ DemiCote *Carte::ajouteDemiCote(const Point &p, DemiCote *oppose) {
 }
 
 
-void Carte::flip(DemiCote *demicote) {
-  // On traite le premier demicote
-    demicote->precedent()->demiCoteSuivant = demicote->suivant();
-    demicote->suivant()->demiCotePrecedent = demicote->precedent();
-
-  DemiCote * demicote_initial_oppose = demicote->precedent()->oppose();
-  demicote->demiCoteSommet = demicote_initial_oppose->sommet();
-
-  demicote_initial_oppose->demiCotePrecedent->demiCoteSuivant = demicote;
-  demicote->demiCotePrecedent = demicote_initial_oppose->demiCotePrecedent;
-
-  demicote_initial_oppose->demiCotePrecedent = demicote;
-  demicote->demiCoteSuivant = demicote_initial_oppose;
-
-  // On traite son oppos�
-  DemiCote * demicote_oppose = demicote->oppose();
-  demicote_oppose->precedent()->demiCoteSuivant = demicote_oppose->suivant();
-  demicote_oppose->suivant()->demiCotePrecedent = demicote_oppose->precedent();
-
-  DemiCote * demicote_oppose_oppose = demicote_oppose->precedent()->oppose();
-  demicote_oppose->demiCoteSommet = demicote_oppose_oppose->sommet();
-
-  demicote_oppose_oppose->demiCotePrecedent->demiCoteSuivant = demicote_oppose;
-  demicote_oppose->demiCotePrecedent = demicote_oppose_oppose->demiCotePrecedent;
-
-  demicote_oppose_oppose->demiCotePrecedent = demicote_oppose;
-  demicote_oppose->demiCoteSuivant = demicote_oppose_oppose;
-}
+//void Carte::flip(DemiCote *demicote) {
+//  // On traite le premier demicote
+//    demicote->precedent()->demiCoteSuivant = demicote->suivant();
+//    demicote->suivant()->demiCotePrecedent = demicote->precedent();
+//
+//  DemiCote * demicote_initial_oppose = demicote->precedent()->oppose();
+//  demicote->demiCoteSommet = demicote_initial_oppose->sommet();
+//
+//  demicote_initial_oppose->demiCotePrecedent->demiCoteSuivant = demicote;
+//  demicote->demiCotePrecedent = demicote_initial_oppose->demiCotePrecedent;
+//
+//  demicote_initial_oppose->demiCotePrecedent = demicote;
+//  demicote->demiCoteSuivant = demicote_initial_oppose;
+//
+//  // On traite son oppos�
+//  DemiCote * demicote_oppose = demicote->oppose();
+//  demicote_oppose->precedent()->demiCoteSuivant = demicote_oppose->suivant();
+//  demicote_oppose->suivant()->demiCotePrecedent = demicote_oppose->precedent();
+//
+//  DemiCote * demicote_oppose_oppose = demicote_oppose->precedent()->oppose();
+//  demicote_oppose->demiCoteSommet = demicote_oppose_oppose->sommet();
+//
+//  demicote_oppose_oppose->demiCotePrecedent->demiCoteSuivant = demicote_oppose;
+//  demicote_oppose->demiCotePrecedent = demicote_oppose_oppose->demiCotePrecedent;
+//
+//  demicote_oppose_oppose->demiCotePrecedent = demicote_oppose;
+//  demicote_oppose->demiCoteSuivant = demicote_oppose_oppose;
+//}
