@@ -25,7 +25,7 @@ int main() {
 //    // Ajouter ces points dans un vecteur
 //    std::vector<Point> points = {p1, p2, p3, p4,p5 ,p6,p7};
         std::ifstream file
-        ("C:/Users/makia/Documents/exercice a faire/algo_geo_exo4_triangulation_de_delaunay/Hohneck.txt");
+        ("C:/Users/chaid/Documents/Exercice a faire/Algo geo/algo_geo_exo_final/Hohneck.txt");
         if (!file) {
             std::cout << "Impossible d'ouvrir le fichier !";
             return EXIT_FAILURE;

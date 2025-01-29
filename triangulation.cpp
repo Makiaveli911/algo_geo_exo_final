@@ -95,6 +95,8 @@ void delaunay(std::vector<Point>& T, Carte& C)
     }
 
     // 2) Marquer le bord (on part du demiCoteParticulier qui est sur le "bord")
+    // Afficher un message de succès
+    std::cout << "Debut marquage des coté sur le bord !" << std::endl;
     DemiCote* start = C.getDemiCoteParticulier();
     DemiCote* courant = start;
     do {
@@ -102,72 +104,84 @@ void delaunay(std::vector<Point>& T, Carte& C)
         courant->oppose()->changeMarque(1);
         courant = courant->oppose()->suivant();
     } while (courant != start);
+    // Afficher un message de succès
+    std::cout << "Marquage des bord reussi !" << std::endl;
+
+
+
+
+
+
 
     // 3) Empiler les autres (non-bord => marque=0)
-    std::stack<DemiCote*> pile;
-    int nb = C.tailleTableauDemiCotes();
-    for (int i = 0; i < nb; i++)
-    {
-        DemiCote* d = C.getTableauDemiCote(i);
-        if (d->marque() == 0) {
-            d->changeMarque(2);        // 2 => "dans la pile"
-            d->oppose()->changeMarque(2);
-            pile.push(d);
+    // Afficher un message de succès
+    std::cout << "creation de la pile !" << std::endl;
+    std::stack<DemiCote*> pileATraiter;
+    for (int i = 0; i < C.tailleTableauDemiCotes(); i++) {
+
+        DemiCote* demiCoteCourant = C.getTableauDemiCote(i);
+        if (demiCoteCourant->marque() != 2) {
+            demiCoteCourant->changeMarque(2);        // 2 => "dans la pile"
+            demiCoteCourant->oppose()->changeMarque(2);
+            pileATraiter.push(demiCoteCourant);
         }
     }
 
-    // Petite lambda isIllegal
-    auto isIllegal = [&](DemiCote* d) {
-        // d = A->B
-        Point A = d->sommet()->getPoint();
-        Point B = d->suivant()->sommet()->getPoint();
-        Point C_ = d->suivant()->suivant()->sommet()->getPoint();
-        Point D = d->oppose()->suivant()->sommet()->getPoint();
-
-        // Suppose (A,B,C_) en trigonométrique => si D est dedans => illégal
-        int res = D.dansCercle(A, B, C_);
-        return (res == 1);
-        };
-
-    // lambda pour (ré)empiler un demiCôté si ce n'est pas un bord (1) ni déjà dans pile (2)
-    auto pushIfNotMarked = [&](DemiCote* e) {
-        if (e->marque() == 0) { // non-bord, pas déjà pile
-            e->changeMarque(2);
-            e->oppose()->changeMarque(2);
-            pile.push(e);
-        }
-        };
-
-    // 4) Boucle de flips
-    while (!pile.empty())
+     // 4) Boucle de flips
+    while (!pileATraiter.empty())
     {
-        DemiCote* d = pile.top();
-        pile.pop();
+        DemiCote* traitement = pileATraiter.top();
+        pileATraiter.pop();
         // démarquer => 0
-        d->changeMarque(0);
-        d->oppose()->changeMarque(0);
+        traitement->changeMarque(0);
+        traitement->oppose()->changeMarque(0);
 
-        if (isIllegal(d))
-        {
+        if (traitement->precedent()->oppose()->sommet()->getPoint().dansCercle(
+        traitement->point(),
+        traitement->suivant()->oppose()->point(),
+        traitement->oppose()->point()) < 0){
+            for (DemiCote * dc : {traitement->oppose()->precedent(),
+            traitement->oppose()->suivant(),
+            traitement->precedent(),
+            traitement->suivant()}) {
+                if (dc->marque() == 0) {
+                    dc->changeMarque(2);
+                    dc->oppose()->changeMarque(2);
+                    pileATraiter.push(dc);
+                }
+            }
             // flip
-            C.flip(d);
-
-            // Empiler voisins
-            DemiCote* e1 = d->suivant();
-            DemiCote* e2 = d->suivant()->suivant();
-            DemiCote* e3 = d->oppose()->suivant();
-            DemiCote* e4 = d->oppose()->suivant()->suivant();
-
-            if (e1->marque() != 1) pushIfNotMarked(e1);
-            if (e2->marque() != 1) pushIfNotMarked(e2);
-            if (e3->marque() != 1) pushIfNotMarked(e3);
-            if (e4->marque() != 1) pushIfNotMarked(e4);
+            C.flip(traitement);
         }
     }
 
     // Fin => Delaunay
     std::cout << "Triangulation Delaunay terminee\n";
 }
+
+    // // Petite lambda isIllegal
+    // auto isIllegal = [&](DemiCote* d) {
+    //     // d = A->B
+    //     Point A = d->sommet()->getPoint();
+    //     Point B = d->suivant()->sommet()->getPoint();
+    //     Point C_ = d->suivant()->suivant()->sommet()->getPoint();
+    //     Point D = d->oppose()->suivant()->sommet()->getPoint();
+    //
+    //     // Suppose (A,B,C_) en trigonométrique => si D est dedans => illégal
+    //     int res = D.dansCercle(A, B, C_);
+    //     return (res == 1);
+    //     };
+    //
+    // // lambda pour (ré)empiler un demiCôté si ce n'est pas un bord (1) ni déjà dans pile (2)
+    // auto pushIfNotMarked = [&](DemiCote* e) {
+    //     if (e->marque() == 0) { // non-bord, pas déjà pile
+    //         e->changeMarque(2);
+    //         e->oppose()->changeMarque(2);
+    //         pile.push(e);
+    //     }
+    //     };
+
+
 
 
     //// Création d'une pile pour stocker les demi-côtés à corriger
