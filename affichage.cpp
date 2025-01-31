@@ -8,53 +8,53 @@
 void segment(const Point &a, const Point &b)
 {
 }
-
 void trace(const Carte& C)
 {
-    // Initialiser les paramètres pour la fenêtre graphique
+    // Initialiser les paramètres pour la fenêtre graphique en mode plein écran
     int gd = DETECT, gm;
     initgraph(&gd, &gm, "");
+    setgraphmode(getmaxmode()); // Met en plein écran
 
-    // Obtenir la hauteur de la fenêtre graphique
-    int height = getmaxy();
+    int width = 1920;  // Largeur max de la fenêtre
+    int height = 1000; // Hauteur max de la fenêtre
 
-    // Dessiner les demi-côtés
+    std::cout << "Resolution: " << width << "x" << height << std::endl;
+
+    // Tracer les demi-côtés
     for (int i = 0; i < C.tailleTableauDemiCotes(); i++)
     {
-        // Obtenir le demi-côté courant
         DemiCote* demiCoteCourant = C.getTableauDemiCote(i);
 
-        // Vérifier que le demi-côté a un opposé
         if (demiCoteCourant->oppose() != nullptr)
         {
-            // Obtenir les coordonnées des sommets
             Point p1 = demiCoteCourant->point();
             Point p2 = demiCoteCourant->oppose()->point();
 
-            // Tracer une ligne entre p1 et p2 et inversion de l'axe verticale
-            line(p1.x(), height -p1.y(), p2.x(), height -p2.y());
+            // Adapter Y pour que (0,0) soit en bas à gauche
+            int x1 = p1.x();
+            int y1 = height - p1.y();
+            int x2 = p2.x();
+            int y2 = height - p2.y();
+
+            line(x1, y1, x2, y2);
         }
     }
 
     // Dessiner les sommets
     for (int i = 0; i < C.tailleTableauSommets(); i++)
     {
-        // Obtenir le sommet courant
         Sommet* sommet = C.getTableauSommet(i);
-
-        // Obtenir les coordonnées du sommet
         Point p = sommet->getPoint();
 
-        //inversion de l'axe vertical
         int x = p.x();
-        int y = height - p.y();
-        // Dessiner un petit cercle pour représenter le sommet
+        int y = height - p.y(); // Correction de l'axe Y
+
         setcolor(RED);
         circle(x, y, 5);
         floodfill(x, y, RED);
     }
 
-    // Attendre une entrée de l'utilisateur pour fermer la fenêtre
+    // Attendre une entrée utilisateur avant de fermer
     std::cout << "Appuyez sur une touche pour quitter..." << std::endl;
     getch();
     closegraph(); // Fermer la fenêtre graphique
