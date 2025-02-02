@@ -1,0 +1,119 @@
+# Bleu nuit (780 et en dessous)
+newmtl BleuNuit
+Ka 0.0 0.0 0.4
+Kd 0.0 0.0 0.8
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Bleu profond (781-820)
+newmtl BleuProfond
+Ka 0.0 0.2 0.8
+Kd 0.0 0.3 0.9
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Bleu clair (821-860)
+newmtl BleuClair
+Ka 0.0 0.4 1.0
+Kd 0.3 0.6 1.0
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Turquoise (861-900)
+newmtl Turquoise
+Ka 0.0 0.6 0.6
+Kd 0.2 0.8 0.8
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Vert turquoise (901-940)
+newmtl VertTurquoise
+Ka 0.0 0.8 0.4
+Kd 0.2 0.9 0.5
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Vert vif (941-980)
+newmtl VertVif
+Ka 0.0 1.0 0.0
+Kd 0.3 1.0 0.3
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Jaune vert (981-1020)
+newmtl JauneVert
+Ka 0.7 1.0 0.0
+Kd 0.8 1.0 0.4
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Jaune vif (1021-1060)
+newmtl JauneVif
+Ka 1.0 1.0 0.0
+Kd 1.0 1.0 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Orange clair (1061-1100)
+newmtl OrangeClair
+Ka 1.0 0.7 0.1
+Kd 1.0 0.8 0.4
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Orange vif (1101-1140)
+newmtl OrangeVif
+Ka 1.0 0.5 0.0
+Kd 1.0 0.6 0.3
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Rouge clair (1141-1180)
+newmtl RougeClair
+Ka 1.0 0.2 0.0
+Kd 1.0 0.4 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Rouge intermédiaire 1 (1181-1220)
+newmtl RougeInter1
+Ka 1.0 0.1 0.1
+Kd 1.0 0.3 0.3
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+# Rouge intermédiaire 2 (1221-1260)
+newmtl RougeInter2
+Ka 1.0 0.05 0.05
+Kd 1.0 0.2 0.2
+Ks 0.2 0.2 0.2
+Ns 10.0
+d 1.0
+
+# Rouge vif (1261-1320)
+newmtl RougeVif
+Ka 1.0 0.0 0.0
+Kd 1.0 0.1 0.1
+Ks 0.2 0.2 0.2
+Ns 15.0
+d 1.0
+
+# Rouge ultra vif (1321+)
+newmtl RougeUltraVif
+Ka 1.0 0.0 0.0
+Kd 1.0 0.0 0.0
+Ks 0.3 0.3 0.3
+Ns 30.0
+d 1.0

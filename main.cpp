@@ -6,6 +6,7 @@
 #include <vector>
 #include <fstream>    // Pour ifstream
 #include <limits>  
+#include "createObj.h"
 
 int main() {
     try{
@@ -25,7 +26,7 @@ int main() {
 //    // Ajouter ces points dans un vecteur
 //    std::vector<Point> points = {p1, p2, p3, p4,p5 ,p6,p7};
         std::ifstream file
-        ("C:/Users/chaid/Documents/Exercice a faire/Algo geo/algo_geo_exo_final/Hohneck.txt");
+        ("C:/Users/makia/Documents/exercice a faire/algo_geo_exo_final/Hohneck.txt");
         if (!file) {
             std::cout << "Impossible d'ouvrir le fichier !";
             return EXIT_FAILURE;
@@ -37,7 +38,7 @@ int main() {
         float x, y, z;
         std::vector<Point> points;
         while (file >> x >> y >> z) {
-            points.emplace_back(x, y);
+            points.emplace_back(x, y, z);
         }
 
     Carte carte;
@@ -46,7 +47,11 @@ int main() {
     // Afficher un message de succès
     std::cout << "Triangulation réalisée avec succès !" << std::endl;
     // On applique ensuite la fonction de Delaunay (tout-en-un)
-    trace(carte);
+    /*trace(carte);*/
+
+    // Appel à l'exportation du fichier OBJ avec le nom souhaité
+    exportOBJ(carte, "C:/Users/makia/Documents/exercice a faire/algo_geo_exo_final/hohneck.obj");
+    std::cout << "Export OBJ réalisé avec succès !" << std::endl;
 
 
 } catch (const std::exception& e) {

@@ -1,3 +1,0 @@
-C:/Users/chaid/Documents/Exercice a faire/Algo geo/algo_geo_exo_final/cmake-build-debug/CMakeFiles/algo_geo_4.dir
-C:/Users/chaid/Documents/Exercice a faire/Algo geo/algo_geo_exo_final/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/chaid/Documents/Exercice a faire/Algo geo/algo_geo_exo_final/cmake-build-debug/CMakeFiles/rebuild_cache.dir

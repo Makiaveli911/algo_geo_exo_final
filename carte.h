@@ -21,21 +21,26 @@ public:
     DemiCote* getDemiCote() const {return demiCote;}
 
     // Renvoie l'index du sommet
-    int getIndex() const {return index;}
+    int index() const {return d_index;}
+
+	int objIndex() const { return d_objIndex; }
+
+	void setObjIndex(int index) { d_objIndex = index; }
 
 private:
 
 	// Construit un sommet dont les coordonn�es sont celles de p,
 	// � l'extr�mit� du demi-c�t� demiCote et dont l'index est index
-    Sommet(const Point &p, DemiCote* demiCote, int index)
-           : point(p), demiCote{demiCote}, index{index} {};
+	Sommet(const Point& p, DemiCote* demiCote, int index)
+		: point(p), demiCote{ demiCote }, d_index{ index }, d_objIndex{ 0 } {};
 
 	// Destructeur de sommet priv�
 	~Sommet() = default;
 
 	Point point;
 	DemiCote* demiCote;   // l'un des demi-c�t�s issus du sommet
-	int index;            // la position du sommet dans le tableau d_tabSommets
+	int d_index;  // la position du sommet dans le tableau d_tabSommets
+	int d_objIndex; // index pour la création d'obj recupere l'index
 };
 
 class DemiCote
